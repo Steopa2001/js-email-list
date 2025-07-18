@@ -17,3 +17,8 @@ for (i = 0; i < 10; i++) {
     }
 }
 
+// Genera email al caricamento della pagina
+generaEmail();
+
+// Quando clicchi il bottone, rigenera le email
+generaBtn.addEventListener('click', generaEmail);
